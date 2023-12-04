@@ -2,7 +2,8 @@ const allowedOrigins = [
   /https:\/\/.+\-toeverything\.vercel\.app$/,
   /https:\/\/(.+\.)?affine\.pro$/,
   /https:\/\/(.+\.)?affine\.fail$/,
-  /https?:\/\/localhost(:\d+)?$/
+  /https?:\/\/localhost(:\d+)?$/,
+	/https:\/\/try-blocksuite\.vercel\.app$/
 ]
 
 type ResponseOptions = {
